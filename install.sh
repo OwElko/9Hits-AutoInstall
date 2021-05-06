@@ -435,7 +435,7 @@ else
     cd /root/9Hits/9HitsViewer_x64/
     settings="/root/9Hits/9HitsViewer_x64/settings.json"
 cat > $settings <<EOFSS
-    {"hiddenColumns":[],"token":"$token","browser":"hide","popups":"$pupups","adult":"$adultpages","autoStart":"yes"}
+    {"hiddenColumns":[],"token":"$token","browser":"hide","popups":"$pupups","adult":"$adultpages","coinMn":"deny","autoStart":"yes"}
 EOFSS
 
 
